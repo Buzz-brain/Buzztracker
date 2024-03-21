@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location web tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="menuOverlay">
+        <nav>
+            <div class="logoOnOverlay">
+                <div class="logo">
+                    <p class="letterB">B</p>
+                    <div class="logoText">
+                        <p>uzz</p>
+                        <p><span class="letterT">t</span>racker</p>
+                    </div>
+                </div>
+                <div class="remove"><img src="menuCancel.png" alt="" width="24px"></div>   
+            </div>
+            <ul>
+                <a href="dashboard.html"><li class="activeOverlay">Dashboard</li></a>
+                <a href="locationhistory.html"><li>Location history</li></a>
+                <a href="map.html"><li>Map</li></a>
+                <a href="index.html"><li>Logout</li></a>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <p class="letterB">B</p>
+                    <div class="logoText">
+                        <p>uzz</p>
+                        <p><span class="letterT">t</span>racker</p>
+                    </div>
+                </div>
+                <ul>
+                    <a href="dashboard.html"><li class="active">Dashboard</li></a>
+                    <a href="locationhistory.html"><li>Location history</li></a>
+                    <a href="map.html"><li>Map</li></a>
+                    <a href="index.html"><li>Logout</li></a>
+                </ul>
+                <img id="openMenu" src="menu.png" alt="">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="welcome">Welcome, name</h2> <!-- Display the logged in user name here -->
+            <div class="locationCtn">
+                <div class="locationText">
+                    <p>Current Location</p>
+                    <h1 id="locationDiv">Getting Location...</h1>
+                </div>
+
+                <div id="locationMap" class="locationMap">Getting Map Location...</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

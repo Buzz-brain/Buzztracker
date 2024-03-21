@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="form.css">
+    <script defer src="register.js"></script>
+</head>
+<body>
+    <div id="message"></div>
+    <main class="container flex-center">
+        <div class="logo flex">
+            <p class="letterB">B</p>
+            <div class="logoText">
+                <p>uzz</p>
+                <p><span class="letterT">t</span>racker</p>
+            </div>
+        </div>
+        <div class="flex">
+            <form action="login.html" method="post" name="form">
+                <h1>Welcome !</h1>
+                <div class="inputCtn">
+                    <span id="placeholder">Name</span>
+                    <input type="text" class="input" placeholder="Name" name="name">
+                </div>
+                <div class="inputCtn">
+                    <span id="placeholder">Email Address</span>
+                    <input type="email" class="input" placeholder="Email Address" name="email">
+                </div>
+                <div class="inputCtn">
+                    <span id="placeholder">Password</span>
+                    <input type="password" class="input" placeholder="Password" name="password">
+                </div>
+                <div class="inputCtn">
+                    <span id="placeholder">Confirm Password</span>
+                <input type="password" class="input" placeholder="Confirm Password" name="cPassword">
+                </div>
+                <button type="submit">Sign Up</button>
+                <p class="haveAccount">Already have an Account? <a href="index.html">Login</a></p> <!-- The index.html page is the login page -->
+            </form>
+            <div class="signImg flex-center">
+                <img src="signup.png" alt="Sign up image">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

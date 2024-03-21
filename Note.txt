@@ -1,0 +1,2 @@
+The index.html page is the login page ( The name can be changed)
+You are to remove the anchor tag in the login button in the login page(index.html)
